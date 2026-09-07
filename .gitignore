@@ -1,0 +1,15 @@
+# Local hatch-pet generation and QA runs; not needed to install a pet.
+/output/
+
+# OS/editor and Python caches.
+.DS_Store
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Local-only environment files.
+.env
+.env.*
+!.env.example
