@@ -4,23 +4,32 @@ Codex 自定义宠物。当前宠物：**牛来**（`niulai`）。
 
 ## 安装
 
-下载 `pets/niulai/`，保持下面两个文件在同一个目录中：
+1. 下载仓库并进入项目目录：
 
-```text
-niulai/
-├── pet.json
-└── spritesheet.webp
-```
+   ```bash
+   git clone https://github.com/RYDE-PLAY/CodexPet.git
+   cd CodexPet
+   ```
 
-将它复制到 Codex 宠物目录：
+   如果已经下载过仓库，直接进入本地的 `CodexPet` 目录即可。
 
-```bash
-CODEX_PETS_DIR="${CODEX_HOME:-$HOME/.codex}/pets"
-mkdir -p "$CODEX_PETS_DIR"
-cp -R pets/niulai "$CODEX_PETS_DIR/niulai"
-```
+2. 牛来的文件位于 `pets/niulai/`，两个文件需要保持在同一个目录中：
 
-复制完成后重启或重新加载 Codex。
+   ```text
+   niulai/
+   ├── pet.json
+   └── spritesheet.webp
+   ```
+
+3. 将它复制到 Codex 宠物目录：
+
+   ```bash
+   CODEX_PETS_DIR="${CODEX_HOME:-$HOME/.codex}/pets"
+   mkdir -p "$CODEX_PETS_DIR"
+   cp -R pets/niulai "$CODEX_PETS_DIR/"
+   ```
+
+4. 复制完成后重启或重新加载 Codex。
 
 ## 添加更多宠物
 
