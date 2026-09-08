@@ -1,4 +1,5 @@
-# Local hatch-pet generation and QA runs; not needed to install a pet.
+# Local pet creation and QA tooling; not needed to install a pet.
+/hatch-pet/
 /output/
 
 # OS/editor and Python caches.
