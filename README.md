@@ -22,8 +22,6 @@ cp -R pets/niulai "$CODEX_PETS_DIR/niulai"
 
 复制完成后重启或重新加载 Codex。
 
-使用宠物只需要 `pets/niulai/`；仓库中的其他文件是说明、许可或本地制作工具，不是运行牛来所必需的。
-
 ## 添加更多宠物
 
 每个宠物放在 `pets/<pet-id>/` 下，并在目录中提供 `pet.json` 和 `spritesheet.webp`。
