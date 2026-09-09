@@ -9,22 +9,22 @@ Codex 自定义宠物。
     <td align="center">
       <img src="assets/previews/niulai.gif" alt="牛来" width="160" /><br />
       <strong>牛来</strong><br />
-      <code>code_name: niulai</code>
+      <code>niulai</code>
     </td>
     <td align="center">
       <img src="assets/previews/shaun.gif" alt="小羊肖恩" width="160" /><br />
       <strong>小羊肖恩</strong><br />
-      <code>code_name: shaun</code>
+      <code>shaun</code>
     </td>
     <td align="center">
       <img src="assets/previews/zhuzhuxia.gif" alt="猪猪侠" width="160" /><br />
       <strong>猪猪侠</strong><br />
-      <code>code_name: zhuzhuxia</code>
+      <code>zhuzhuxia</code>
     </td>
     <td align="center">
       <img src="assets/previews/pickle-rick.gif" alt="Pickle Rick" width="160" /><br />
       <strong>Pickle Rick</strong><br />
-      <code>code_name: pickle-rick</code>
+      <code>pickle-rick</code>
     </td>
   </tr>
 </table>
@@ -40,7 +40,7 @@ Codex 自定义宠物。
 
    如果已经下载过仓库，直接进入本地的 `CodexPet` 目录即可。
 
-2. 选择一个宠物。下面以 `niulai` 为例；将命令中的 `niulai` 替换成上面任意宠物的 `code_name`。两个文件需要保持在同一个目录中：
+2. 选择一个宠物。下面以 `niulai` 为例；将命令中的 `niulai` 替换成上面任意宠物的 `pet-id`。两个文件需要保持在同一个目录中：
 
    ```text
    niulai/
