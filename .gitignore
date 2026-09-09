@@ -1,6 +1,8 @@
 # Local pet creation and QA tooling; not needed to install a pet.
 /hatch-pet/
 /output/
+/references/
+/runs/
 
 # OS/editor and Python caches.
 .DS_Store
