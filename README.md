@@ -7,9 +7,9 @@ Codex 自定义宠物。
 <table>
   <tr>
     <td align="center">
-      <img src="assets/previews/niulai.gif" alt="牛来" width="160" /><br />
-      <strong>牛来</strong><br />
-      <code>niulai</code>
+      <img src="assets/previews/niulaima.gif" alt="牛来妈" width="160" /><br />
+      <strong>牛来妈</strong><br />
+      <code>niulaima</code>
     </td>
     <td align="center">
       <img src="assets/previews/shaun.gif" alt="小羊肖恩" width="160" /><br />
@@ -40,10 +40,10 @@ Codex 自定义宠物。
 
    如果已经下载过仓库，直接进入本地的 `CodexPet` 目录即可。
 
-2. 选择一个宠物。下面以 `niulai` 为例；将命令中的 `niulai` 替换成上面任意宠物的 `pet-id`。两个文件需要保持在同一个目录中：
+2. 选择一个宠物。下面以 `niulaima` 为例；将命令中的 `niulaima` 替换成上面任意宠物的 `pet-id`。两个文件需要保持在同一个目录中：
 
    ```text
-   niulai/
+   niulaima/
    ├── pet.json
    └── spritesheet.webp
    ```
@@ -51,7 +51,7 @@ Codex 自定义宠物。
 3. 将它复制到 Codex 宠物目录：
 
    ```bash
-   CODEX_PET_ID="niulai"
+   CODEX_PET_ID="niulaima"
    CODEX_PETS_DIR="${CODEX_HOME:-$HOME/.codex}/pets"
    mkdir -p "$CODEX_PETS_DIR"
    cp -R "pets/$CODEX_PET_ID" "$CODEX_PETS_DIR/"
