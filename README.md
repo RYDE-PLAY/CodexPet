@@ -1,6 +1,6 @@
 # CodexPet
 
-Codex 自定义宠物。当前宠物：**牛来**（`niulai`）。
+Codex 自定义宠物：**牛来**（`niulai`）、**小羊肖恩**（`shaun`）、**猪猪侠**（`zhuzhuxia`）与 **Pickle Rick**（`pickle-rick`）。
 
 ## 安装
 
@@ -13,10 +13,10 @@ Codex 自定义宠物。当前宠物：**牛来**（`niulai`）。
 
    如果已经下载过仓库，直接进入本地的 `CodexPet` 目录即可。
 
-2. 牛来的文件位于 `pets/niulai/`，两个文件需要保持在同一个目录中：
+2. 猪猪侠的文件位于 `pets/zhuzhuxia/`，两个文件需要保持在同一个目录中：
 
    ```text
-   niulai/
+   zhuzhuxia/
    ├── pet.json
    └── spritesheet.webp
    ```
@@ -26,7 +26,7 @@ Codex 自定义宠物。当前宠物：**牛来**（`niulai`）。
    ```bash
    CODEX_PETS_DIR="${CODEX_HOME:-$HOME/.codex}/pets"
    mkdir -p "$CODEX_PETS_DIR"
-   cp -R pets/niulai "$CODEX_PETS_DIR/"
+   cp -R pets/zhuzhuxia "$CODEX_PETS_DIR/"
    ```
 
 4. 复制完成后重启或重新加载 Codex。
