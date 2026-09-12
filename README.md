@@ -66,9 +66,9 @@ Codex 自定义宠物。
 
 4. 复制完成后重启或重新加载 Codex。
 
-## 添加更多宠物
+## 贡献
 
-每个宠物放在 `pets/<pet-id>/` 下，并在目录中提供 `pet.json` 和 `spritesheet.webp`。
+新宠物放在 `pets/<pet-id>/` 下，并在目录中提供 `pet.json` 和 `spritesheet.webp`。
 
 ## 许可
 
