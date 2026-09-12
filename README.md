@@ -21,10 +21,17 @@ Codex 自定义宠物。
       <strong>猪猪侠</strong><br />
       <code>zhuzhuxia</code>
     </td>
+  </tr>
+  <tr>
     <td align="center">
       <img src="assets/previews/pickle-rick.gif" alt="Pickle Rick" width="160" /><br />
       <strong>Pickle Rick</strong><br />
       <code>pickle-rick</code>
+    </td>
+    <td align="center">
+      <img src="assets/previews/doc.gif" alt="Doc" width="160" /><br />
+      <strong>Doc</strong><br />
+      <code>doc</code>
     </td>
   </tr>
 </table>
